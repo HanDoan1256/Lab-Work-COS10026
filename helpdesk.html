@@ -19,15 +19,15 @@
         <fieldset>
             <legend>Student details</legend>
             <label for="studentID" > Student ID </label>
-            <input type ="text" id="studentID" name="studentID" required pattern="\d{7,10}" placeholder="Enter 7-10 digit ID">
+            <input type ="text" id="studentID" name="studentID" default="1234567" required pattern="\d{7,10}" placeholder="Enter 7-10 digit ID">
             <br>
             <br>
 
             <label for="givenName" > Given Name </label>
-            <input type ="text" id="givenName" name="givenName" required pattern="[A-Za-z]{1,15}" placeholder="Ex: Marie">
+            <input type ="text" id="givenName" name="givenName" default="Trung" required pattern="[A-Za-z]{1,15}" placeholder="Ex: Marie">
 
             <label for="familyName" > Family Name </label>
-            <input type ="text" id="familyName" name="familyName" required pattern="[A-Za-z]{1,15}" placeholder="Ex: Curie"><br>
+            <input type ="text" id="familyName" name="familyName" default="Luu" required pattern="[A-Za-z]{1,15}" placeholder="Ex: Curie"><br>
         </fieldset>
 
         <fieldset>
