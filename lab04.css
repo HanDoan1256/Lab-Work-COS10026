@@ -1,0 +1,84 @@
+/*
+filename: lab04.css
+author: Doan Gia Han
+created: 13th Feb, 2025
+last modified: 14th Feb, 2025
+description: Styles for lab04.html
+*/
+
+* {
+    font-family: Calibri, sans-serif;
+    color: #2F4F4F;
+}
+
+/* Styling for h1 */
+h1 {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Styling for h2 */
+h2 {
+    color: rgb(0, 128, 128);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Styling for h1, h2, h3 */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+/* Italicize text in <aside> and <footer> */
+aside, footer {
+    font-style: italic;
+}
+
+/* Add border to table, table headers, and table data */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Center align the "Images" heading */
+#images {
+    text-align: center;
+}
+
+/* Change color of the "Headings" h3 */
+#headings {
+    color: red;
+}
+
+/* Style for special text using class */
+.special {
+    color: darkorange;
+}
+
+/* Align specific month headers */
+.month-header {
+    text-align: right;
+}
+
+/* Remove underline from links inside <nav> and add spacing */
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+/* Make nested unordered lists inside ordered lists have square bullets */
+ol ul {
+    list-style-type: square;
+}
+
+/* Hide <aside> when hovered over */
+aside:hover {
+    display: none;
+}
+
+/* Change background and border of menu items when hovered */
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
