@@ -59,7 +59,7 @@ table, th, td {
 .month-header {
     text-align: right;
 }
-td {
+tr {
     text-align: right;
     )
 /* Remove underline from links inside <nav> and add spacing */
