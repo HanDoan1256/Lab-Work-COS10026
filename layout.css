@@ -3,7 +3,7 @@ filename: lab04.css
 author: Doan Gia Han
 created: 13th Feb, 2025
 last modified: 14th Feb, 2025
-description: Styles for lab04.html
+description: Styles for lab05.html
 */
 
 aside:hover {
@@ -19,7 +19,7 @@ aside {
     border-radius: 14px;
     margin: 1em;
     padding: 1em;
-    background-image: url(images/fade.jpg) repeat-x top left;
+    background-image: url(fade.jpg) repeat-x top left;
     width: 30%;
     float: right;
     box-shadow: 10px 10px 5px #aaaaaa;
